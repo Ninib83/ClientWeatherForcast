@@ -1,0 +1,10 @@
+﻿.carousel-image {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .carousel-indicators,
+    .carousel-caption {
+        display: none;
+    }
+}

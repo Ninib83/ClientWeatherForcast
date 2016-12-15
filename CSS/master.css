@@ -1,0 +1,8 @@
+﻿@import url(../Content/bootstrap.min.css);
+
+/* Components */
+@import url(Components/navbar.css);
+@import url(Components/carousel.css);
+
+/* Layout */
+@import url(Layout/layout.css);

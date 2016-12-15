@@ -1,0 +1,28 @@
+﻿<h1 ng-bind="title"></h1>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>City Name</th>
+                    <th>Weather</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr ng-repeat="report in weather track by $index">
+                    <td>
+                        <h4 ng-bind="report.CityName"></h4>
+                    </td>
+                    <td><h4 ng-bind="report.CityTemperature"></h4></td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+
+    </div>
+
+</div>
